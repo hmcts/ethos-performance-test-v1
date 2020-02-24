@@ -16,7 +16,6 @@ class EthosPTSimulationLatest extends Simulation{
 
    val EthosSCN = scenario("Ethos - Case Creation")
      .exec(
-       // CreateCase.CreateSingleCase,
        CreateCase.CreateMultipleCase
      )
 
