@@ -1,0 +1,30 @@
+#!groovy
+
+properties([
+        pipelineTriggers([cron('00 21 * * *')]),
+        parameters([
+                string(name: 'ENVIRONMENT', defaultValue: 'perftest', description: 'Environment to test'),
+                string(name: 'TEST_URL', defaultValue: 'https://', description: 'The CCD Gateway Url')
+        ])
+])
+
+
+
+@Library("Infrastructure") 
+
+
+def product = "ethos"
+def component = "case"
+
+withNightlyPipeline("java", product, component) {
+    env.TEST_URL = 'https://'
+
+    enablePerformanceTest()
+
+    after('performanceTest') {
+        steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'functional-output/**/*'
+    }
+
+    //enableSlackNotifications('#ethos-nightly-builds')
+
+}
