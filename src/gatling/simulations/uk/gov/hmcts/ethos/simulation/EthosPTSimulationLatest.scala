@@ -15,14 +15,15 @@ class EthosPTSimulationLatest extends Simulation{
     .baseUrl(BashURL)
 
    val EthosSCN = scenario("Ethos - Case Creation")
-     .exec(
-       CreateCase.CreateMultipleCase
-     )
-
-
+   .repeat(2){
+     exec(CreateSingle.CreateSingleCase)
+    }
+    .exec(CreateMultiple.CreateMultipleCase_100)
 
   setUp(
-    EthosSCN.inject(atOnceUsers(1))
+    //EthosSCN.inject(atOnceUsers(1))
+    EthosSCN.inject(rampUsers(50) during (20 minutes))
+
   ).protocols(httpProtocol)
 
 
