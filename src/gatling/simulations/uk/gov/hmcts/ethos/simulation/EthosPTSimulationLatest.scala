@@ -22,7 +22,7 @@ class EthosPTSimulationLatest extends Simulation{
 
   setUp(
     //EthosSCN.inject(atOnceUsers(1))
-    EthosSCN.inject(rampUsers(50) during (20 minutes))
+    EthosSCN.inject(rampUsers(50) during (30 minutes))
 
   ).protocols(httpProtocol)
 
