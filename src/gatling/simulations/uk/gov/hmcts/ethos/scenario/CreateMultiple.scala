@@ -41,7 +41,7 @@ object CreateMultiple {
 
       .exec(http("ET01_CreateMultipleCase_100Claims")
         .post(url + "/api/v2/claims/build_claim")
-        .body(RawFileBody("100claimpayload.json"))
+        .body(RawFileBody("1000claimpayload.json"))
         .header("Content-Type", "application/json")
         .header("Accept", "application/json"))
 
