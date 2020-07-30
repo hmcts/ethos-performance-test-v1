@@ -73,7 +73,7 @@ object Environment {
       .formParam("username", userName)
       .formParam("password", "Password12")
       .formParam("client_id", "ccd_gateway")
-      .formParam("client_secret", "vUstam6brAsT38ranuwRut65rakec4u6")
+      .formParam("client_secret", "****") //ask Perf team for this
       .formParam("redirect_uri", "https://www-ccd.perftest.platform.hmcts.net/oauth2redirect")
       .formParam("grant_type", "password")
       .formParam("scope", "openid profile authorities acr roles")
