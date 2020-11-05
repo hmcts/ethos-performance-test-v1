@@ -48,8 +48,8 @@ object BulkUpdate55Claimant {
 
   val CaseProviderSeq = csv("caseFeeder_55claimant.csv").circular
 
-  val s2sToken = Environment.generateS2SToken()
-  val userToken = Environment.generateEthosSIDAMUserTokenInternal()
+  // val s2sToken = Environment.generateS2SToken()
+  // val userToken = Environment.generateEthosSIDAMUserTokenInternal()
 
   val ethosBulkUpdate =  exec(
     _.setAll(
@@ -62,8 +62,8 @@ object BulkUpdate55Claimant {
     .feed(CaseProviderSeq)
     .exec(http("TX01_Ethos_bulkupdate_55claimant_saveeventtoken")
         .get(SaveEventUrl.replace(":case_reference","${CaseRef}").replaceAll("events", "") + "event-triggers/${EventId}/token")
-        .header("ServiceAuthorization", s2sToken)
-        .header("Authorization", userToken)
+        .header("ServiceAuthorization", "Bearer ${bearerToken}")
+        .header("Authorization", "Bearer ${access_token}")
         .header("Content-Type","application/json")
         .check(status.is(200),jsonPath("$.token").saveAs("eventToken"))
     )
@@ -71,8 +71,8 @@ object BulkUpdate55Claimant {
     .exec(http("TX02_Ethos_bulkupdate_55claimant")
       .post(SaveEventUrl.replace(":case_reference","${CaseRef}"))
       .body(StringBody(EventBodyMain)).asJson
-      .header("ServiceAuthorization", s2sToken)
-      .header("Authorization", userToken)
+      .header("ServiceAuthorization", "Bearer ${bearerToken}")
+      .header("Authorization", "Bearer ${access_token}")
       .header("Content-Type","application/json")
       .check(status is 201)
   )
