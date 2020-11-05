@@ -20,6 +20,21 @@ class EthosPTSimulationLatest extends Simulation{
   //   }
     .exec(CreateMultiple.CreateMultipleCase_100)
 
+<<<<<<< Updated upstream
+=======
+  val CCDCreateSingleSCN = scenario("CCD - Create Single Cases")
+    .repeat(1) {
+        exec(TokenGenerator.CDSGetRequest)
+        .repeat(1) {
+          exec(CCDCreate.ETGetToken)
+          .exec(CCDCreate.ETCreateCase)
+        }
+      }
+
+
+      /* Vijay to add XUI scenarios here*/
+
+>>>>>>> Stashed changes
   setUp(
     EthosSCN.inject(atOnceUsers(1))
     //EthosSCN.inject(rampUsers(50) during (20 minutes))
