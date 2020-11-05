@@ -39,8 +39,8 @@ object BulkUpdate2Claimant {
 
   val EventBodyMain = StringBody("""{"data": {"respondentSurname_v2": "Kapil ${RespondentSurname_v2}","claimantRep_v2": null,"respondentRep_v2": null,"fileLocation_v2": null,"subMultipleDynamicList": {"value": {"code": "999999","label": "None"},"list_items": [{"code": "999999","label": "None"}]},"multipleReference_v2": null,"clerkResponsible_v2": null,"positionType_v2": null,"flag1Update": null,"flag2Update": null,"EQPUpdate": null,"jurCodesDynamicList": {"value": {"code": "None","label": "None"},"list_items": [{"code": "None","label": "None"}]}},"event": {"id": "updateBulkAction_v2","summary": "Bulk update summary - ${CaseSummaryText}", "description": "Bulk update description - ${CaseDescriptionText}"},"event_token": """"  + "${eventToken}" +   """","ignore_warning": false}""")
   val CaseProviderSeq = csv("caseFeeder_2claimant.csv").circular
-  val s2sToken = Environment.generateS2SToken()
-  val userToken = Environment.generateEthosSIDAMUserTokenInternal()
+  // val s2sToken = Environment.generateS2SToken()
+  // val userToken = Environment.generateEthosSIDAMUserTokenInternal()
 
   val ethosBulkUpdate =  exec(
     _.setAll(
@@ -54,8 +54,8 @@ object BulkUpdate2Claimant {
     .exec(
       http("TX01_Ethos_bulkupdate_2claimant_saveeventtoken")
         .get(SaveEventUrl.replace(":case_reference","${CaseRef}").replaceAll("events", "") + "event-triggers/${EventId}/token")
-        .header("ServiceAuthorization", s2sToken)
-        .header("Authorization", userToken)
+        .header("ServiceAuthorization", "Bearer ${bearerToken}")
+        .header("Authorization", "Bearer ${access_token}")
         .header("Content-Type","application/json")
         .check(status.is(200),jsonPath("$.token").saveAs("eventToken"))
     )
@@ -64,8 +64,8 @@ object BulkUpdate2Claimant {
     http("TX02_Ethos_bulkupdate_2claimant")
       .post(SaveEventUrl.replace(":case_reference","${CaseRef}"))
       .body(StringBody(EventBodyMain)).asJson
-      .header("ServiceAuthorization", s2sToken)
-      .header("Authorization", userToken)
+      .header("ServiceAuthorization", "Bearer ${bearerToken}")
+      .header("Authorization", "Bearer ${access_token}")
       .header("Content-Type","application/json")
       .check(status is 201)
   )
