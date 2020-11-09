@@ -68,6 +68,7 @@ object XUIHeaders {
 
 	val ethos_headers_1 = Map(
 		"Pragma" -> "no-cache",
+		"Accept" -> "application/json, text/plain, */*",
 		"Sec-Fetch-Dest" -> "empty",
 		"Sec-Fetch-Mode" -> "cors",
 		"Sec-Fetch-Site" -> "same-origin")
@@ -82,9 +83,30 @@ object XUIHeaders {
 		"X-XSRF-TOKEN" -> "${xsrfToken}",
 		"experimental" -> "true")
 
+	val ethos_headers_3 = Map(
+		"Accept" -> "application/vnd.uk.gov.hmcts.ccd-data-store-api.ui-user-profile.v2+json;charset=UTF-8",
+		"Content-Type" -> "application/json",
+		"Pragma" -> "no-cache",
+		"Sec-Fetch-Dest" -> "empty",
+		"Sec-Fetch-Mode" -> "cors",
+		"Sec-Fetch-Site" -> "same-origin",
+		"X-XSRF-TOKEN" -> "${xsrfToken}",
+		"experimental" -> "true")
+
 	val ethos_headers_4 = Map(
 		"Accept" -> "application/vnd.uk.gov.hmcts.ccd-data-store-api.ui-start-event-trigger.v2+json;charset=UTF-8",
 		"Content-Type" -> "application/json",
+		"Pragma" -> "no-cache",
+		"Sec-Fetch-Dest" -> "empty",
+		"Sec-Fetch-Mode" -> "cors",
+		"Sec-Fetch-Site" -> "same-origin",
+		"X-XSRF-TOKEN" -> "${xsrfToken}",
+		"experimental" -> "true")
+
+	val ethos_headers_5 = Map(
+		"Accept" -> "application/vnd.uk.gov.hmcts.ccd-data-store-api.case-data-validate.v2+json;charset=UTF-8",
+		"Content-Type" -> "application/json",
+		"Origin" -> Environment.xuiUrl,
 		"Pragma" -> "no-cache",
 		"Sec-Fetch-Dest" -> "empty",
 		"Sec-Fetch-Mode" -> "cors",
@@ -105,7 +127,28 @@ object XUIHeaders {
 	val ethos_headers_7 = Map(
 		"Accept" -> "application/vnd.uk.gov.hmcts.ccd-data-store-api.case-data-validate.v2+json;charset=UTF-8",
 		"Content-Type" -> "application/json",
-		"Origin" -> Environment.xuiUrl ,
+		"Origin" -> Environment.xuiUrl,
+		"Pragma" -> "no-cache",
+		"Sec-Fetch-Dest" -> "empty",
+		"Sec-Fetch-Mode" -> "cors",
+		"Sec-Fetch-Site" -> "same-origin",
+		"X-XSRF-TOKEN" -> "${xsrfToken}",
+		"experimental" -> "true")
+
+	val ethos_headers_9 = Map(
+		"Accept" -> "application/vnd.uk.gov.hmcts.ccd-data-store-api.create-event.v2+json;charset=UTF-8",
+		"Content-Type" -> "application/json",
+		"Origin" -> Environment.xuiUrl,
+		"Pragma" -> "no-cache",
+		"Sec-Fetch-Dest" -> "empty",
+		"Sec-Fetch-Mode" -> "cors",
+		"Sec-Fetch-Site" -> "same-origin",
+		"X-XSRF-TOKEN" -> "${xsrfToken}",
+		"experimental" -> "true")
+
+	val ethos_headers_11 = Map(
+		"Accept" -> "application/vnd.uk.gov.hmcts.ccd-data-store-api.ui-case-view.v2+json",
+		"Content-Type" -> "application/json",
 		"Pragma" -> "no-cache",
 		"Sec-Fetch-Dest" -> "empty",
 		"Sec-Fetch-Mode" -> "cors",
