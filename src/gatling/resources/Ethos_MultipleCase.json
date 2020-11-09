@@ -1,0 +1,617 @@
+{
+    "data": {
+       "multipleName": "${CaseMultipleName}",
+        "multipleSource": "ET1 Online",
+        "multipleReference": "${CaseMultipleRef}",
+        "caseIdCollection": [
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef1}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef2}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef3}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef4}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef5}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef6}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef7}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef8}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef9}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef10}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef11}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef12}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef13}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef14}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef15}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef16}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef17}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef18}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef19}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef20}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef21}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef22}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef23}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef24}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef25}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef26}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef27}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef28}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef29}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef30}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef31}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef32}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef33}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef34}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef35}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef36}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef37}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef38}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef39}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef40}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef41}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef42}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef43}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef44}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef45}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef46}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef47}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef48}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef49}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef50}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef15}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef52}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef53}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef54}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef55}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef56}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef57}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef58}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef59}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef60}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef61}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef62}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef63}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef64}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef65}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef66}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef67}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef68}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef69}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef70}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef71}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef72}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef73}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef74}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef75}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef76}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef77}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef78}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef79}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef80}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef81}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef82}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef83}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef84}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef85}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef86}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef87}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef88}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef89}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef90}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef91}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef92}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef93}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef94}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef95}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef96}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef97}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef98}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef99}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${MultiCaseRefPrefix}${caseRef100}"
+                }
+            }
+        ]
+    },
+    "event": {
+        "id": "createMultiple",
+        "summary": "Perftest Multiples Case",
+        "description": ""
+    },
+    "event_token": "${eventToken}",
+    "ignore_warning": false,
+    "draft_id": null
+}

@@ -26,18 +26,48 @@ class EthosPTSimulationLatest extends Simulation{
   val CCDCreateSingleSCN = scenario("CCD - Create Single Cases")
     .repeat(1) {
         exec(TokenGenerator.CDSGetRequest)
-        .repeat(1) {
-          exec(CCDCreate.ETGetToken)
+        .repeat(1062) {
+          exec(CCDCreate.ETGetSingleToken)
           .exec(CCDCreate.ETCreateCase)
         }
       }
 
+  val CCDCreateMultipleSCN = scenario("CCD - Create Single Cases")
+    .repeat(1) {
+        exec(TokenGenerator.CDSGetRequest)
+        .repeat(1) {
+          exec(CCDCreate.ETGetMultipleToken)
+          .exec(CCDCreate.ETCreateMultipleCase)
+        }
+      }
 
-      /* Vijay to add XUI scenarios here*/
+  val ETOnlineCreateSingleSCN = scenario("ETOnline - Create Single Case")
+    .repeat(1) {
+      exec(ETOnline_CreateCase.ETOnline_CreateSingle)
+    }
+
+  val ETOnlineCreateMultipleSCN = scenario("ETOnline - Create Multiple Case")
+    .repeat(1) {
+      exec(ETOnline_CreateCase.ETOnline_CreateMultiple)
+    }
+
+  val XUIMultipleBatchUpdate = scenario("XUI - Batch Update Multiple Case")
+    .repeat(1){
+      exec(XUI.XUIHomePage)
+      .exec(XUI.XUILogin)
+      .repeat(1) {
+        exec(XUI.XUISearchAndOpenCase)
+        .exec(XUI.BatchUpdateMultiple)
+      }
+    }
 
   setUp(
     //EthosSCN.inject(atOnceUsers(1))
-    CCDCreateSingleSCN.inject(rampUsers(1) during (1 minute))
+    //ETOnlineCreateSingleSCN.inject(rampUsers(1) during (1 minute))
+    //ETOnlineCreateMultipleSCN.inject(rampUsers(1) during (1 minute))
+    XUIMultipleBatchUpdate.inject(rampUsers(1) during (1 minute))
+    //CCDCreateSingleSCN.inject(rampUsers(1) during (1 minute))
+    //CCDCreateMultipleSCN.inject(rampUsers(1) during (1 minute))
     //EthosSCN.inject(rampUsers(50) during (20 minutes))
 
   ).protocols(httpProtocol)

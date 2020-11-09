@@ -19,7 +19,7 @@
             }
         }
     ],
-    "receiptDate": "2020-11-04",
+    "receiptDate": "${CaseReceiptDate}",
     "claimantType": {
         "claimant_addressUK": {
             "County": "West borgville",
@@ -814,7 +814,7 @@
         "additional_ind_expert": "No",
         "additional_live_appeal": "Yes"
     },
-    "ethosCaseReference": "${caseRef}",
+    "ethosCaseReference": "${CaseRefPrefix}/${caseRef}",
     "flagsImageFileName": "EMP-TRIB-0000000.jpg",
     "jurCodesCollection": [
         {

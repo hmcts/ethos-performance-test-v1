@@ -11,10 +11,12 @@ object Environment {
   val ccdEnvurl = "https://www-ccd.perftest.platform.hmcts.net"
   val ccdDataStoreUrl = "ccd-data-store-api-perftest.service.core-compute-perftest.internal"
   val s2sUrl = "http://rpe-service-auth-provider-perftest.service.core-compute-perftest.internal"
+  val xuiUrl = "https://manage-case.perftest.platform.hmcts.net"
+  val xuiTCUrl = "https://manage-case.perftest.platform.hmcts.net/accept-terms-and-conditions"
 
   val minThinkTime = 10
   val maxThinkTime = 15
-  val constantthinkTime = 2
+  val constantthinkTime = 7
   val minWaitForNextIteration = 1
   val maxWaitForNextIteration = 2
 

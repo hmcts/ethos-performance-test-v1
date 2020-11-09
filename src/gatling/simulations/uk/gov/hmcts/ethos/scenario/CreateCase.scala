@@ -1,4 +1,5 @@
 package uk.gov.hmcts.ethos.scenario
+
 import java.util.UUID.randomUUID
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
