@@ -13,8 +13,8 @@ object CCDCreate {
   val CCDEnvurl = Environment.ccdEnvurl
   val s2sUrl = Environment.s2sUrl
   val ccdDataStoreUrl = "http://ccd-data-store-api-perftest.service.core-compute-perftest.internal"
-  def casePrefix = "Perf-20201021"
-  def receiptDate = "2020-10-21"
+  def casePrefix = "Perf-20200929"
+  def receiptDate = "2020-09-29"
   def multiCasePrefix = "Perf-20201025/"
 
   val ETGetSingleToken =
@@ -36,7 +36,7 @@ object CCDCreate {
       )
      )
 
-  val feedEthosCaseRef = csv("EthosCaseRef.csv")
+  val feedEthosCaseRef = csv("EthosCaseRef.csv").queue
 
   val ETCreateSingleCase =
 
@@ -76,19 +76,19 @@ object CCDCreate {
 
       .pause(1)
 
-      .exec(
-        _.setAll(
-          ("MultiCaseRefPrefix", multiCasePrefix),
-        )
-      )
+      // .exec(
+      //   _.setAll(
+      //     ("MultiCaseRefPrefix", multiCasePrefix),
+      //   )
+      // )
 
   val feedEthosMultiName = csv("Ethos_MultipleName.csv")
-
+  //val feedEthosCaseRef = csv("EthosCaseRef.csv").queue
 
   val ETCreateSingleCaseForMultiple =
 
     feed(feedEthosCaseRef)
-    feed(feedEthosMultiName)
+    .feed(feedEthosMultiName)
 
     .exec(http("CreateCase")
       .post(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds/cases")
@@ -102,7 +102,7 @@ object CCDCreate {
     .doIf(session=>session("statusvalue").as[String].contains("201")) {
       exec {
         session =>
-          val fw = new BufferedWriter(new FileWriter("CreateSingles.csv", true))
+          val fw = new BufferedWriter(new FileWriter("CreateSinglesForMultiple.csv", true))
           try {
             fw.write(session("CaseRefPrefix").as[String] + "/" + session("caseRef").as[String] + "\r\n")
           }
@@ -113,18 +113,19 @@ object CCDCreate {
 
     .pause(1)
 
-  val feedEthosMultiCaseRef = csv("EthosMultiCaseRef.csv")
+  //val feedEthosMultiCaseRef = csv("EthosMultiCaseRef.csv")
 
   val ETCreateMultipleCase =
 
-  feed(feedEthosMultiCaseRef, 100)
+    feed(feedEthosCaseRef, 50000)
+    .feed(feedEthosMultiName)
 
     .exec(http("CreateMultipleCase")
       .post(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds_Multiple/cases")
       .header("ServiceAuthorization", "Bearer ${bearerToken}")
       .header("Authorization", "Bearer ${access_token}")
       .header("Content-Type","application/json")
-      .body(ElFileBody("Ethos_MultipleCase.json"))
+      .body(ElFileBody("Ethos_MultipleCase50000.json"))
       .check(jsonPath("$.id").saveAs("caseId"))
       .check(status.saveAs("statusvalue")))
 
@@ -133,7 +134,7 @@ object CCDCreate {
         session =>
           val fw = new BufferedWriter(new FileWriter("CreateMultiples.csv", true))
           try {
-            fw.write(session("CaseMultipleName").as[String] + "," + session("caseId").as[String] + "\r\n")
+            fw.write(session("multipleName").as[String] + "," + session("caseId").as[String] + "\r\n")
           }
           finally fw.close()
           session

@@ -1,0 +1,3218 @@
+{
+    "data": {
+      "hearingCollection": [
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "1",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T03:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "2",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "3",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "4",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "5",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "6",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "7",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "8",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "9",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "10",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "11",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "12",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "13",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "14",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "15",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "16",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "17",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "18",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "19",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "20",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "21",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "22",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "23",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "24",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "25",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "event": {
+      "id": "addAmendHearing",
+      "summary": "",
+      "description": ""
+    },
+    "event_token": "${eventToken}",
+    "ignore_warning": false,
+    "event_data": {
+      "hearingCollection": [
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "1",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "-3",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T03:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "2",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "3",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "4",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "5",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "6",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "7",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "8",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "9",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "10",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "11",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "12",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "13",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "14",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "15",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "16",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "17",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "18",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "19",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "20",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "21",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "22",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "23",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "24",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "hearingNumber": "25",
+            "Hearing_type": "Hearing",
+            "Hearing_venue": "Leeds",
+            "hearingEstLengthNum": "1",
+            "hearingEstLengthNumType": "Days",
+            "hearingSitAlone": "Sit Alone",
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingShowDetails": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-01T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-02T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-03T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "listedDate": "2020-12-04T12:00:00.000",
+                  "hearingVenueDay": null,
+                  "showListingDetails": null,
+                  "Hearing_status": null,
+                  "Hearing_judge_name": null,
+                  "Hearing_clerk": null,
+                  "HearingNotes2": null
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "case_reference": "${caseId}"
+  }

@@ -305,7 +305,7 @@ object XUI {
 
         .pause(Environment.constantthinkTime)
 
-    val XUISingleAdd20Respondents = 
+    val XUISingleAdd25Respondents = 
 
         exec(http("XUI_110_005_SelectAmendRespondentsHealthcheck")
 			.get(Environment.xuiUrl + "/api/healthCheck?path=%2Fcases%2Fcase-details%2F${caseId}%2Ftrigger%2FamendRespondentDetails")
@@ -329,7 +329,7 @@ object XUI {
 		.exec(http("XUI_120_005_AddRespondentDetailsPage1")
 			.post(Environment.xuiUrl + "/data/case-types/Leeds/validate?pageId=amendRespondentDetails1")
 			.headers(XUIHeaders.ethos_headers_7)
-			.body(ElFileBody("XUI_20RespondentsAdd.json")))
+			.body(ElFileBody("XUI_25RespondentsAdd.json")))
 
         .exec(http("XUI_120_010_AddRespondentDetailsPage1Healthcheck")
 			.get(Environment.xuiUrl + "/api/healthCheck?path=%2Fcases%2Fcase-details%2F${caseId}%2Ftrigger%2FamendRespondentDetails%2Fsubmit")
@@ -344,7 +344,7 @@ object XUI {
         .exec(http("XUI_130_005_AddRespondentDetailsSubmit")
 			.post(Environment.xuiUrl + "/data/cases/${caseId}/events")
 			.headers(XUIHeaders.ethos_headers_9)
-			.body(ElFileBody("XUI_20RespondentsSubmit.json")))
+			.body(ElFileBody("XUI_25RespondentsSubmit.json")))
 
         .exec(http("XUI_130_010_AddRespondentDetailsSubmitHealthcheck")
 			.get(Environment.xuiUrl + "/api/healthCheck?path=%2Fcases%2Fcase-details%2F${caseId}")
@@ -355,6 +355,108 @@ object XUI {
 			.headers(XUIHeaders.ethos_headers_11))
 
         .pause(Environment.constantthinkTime)
+
+	val XUISingleList25Hearings = 
+
+		exec(http("XUI_140_005_SelectAmendHearingHealthcheck")
+			.get(Environment.xuiUrl + "/api/healthCheck?path=%2Fcases%2Fcase-details%2F${caseId}%2Ftrigger%2FaddAmendHearing")
+			.headers(XUIHeaders.ethos_headers_0))
+
+		.exec(http("XUI_140_010_SelectAmendHearing")
+			.get(Environment.xuiUrl + "/data/internal/cases/${caseId}/event-triggers/addAmendHearing?ignore-warning=false")
+			.headers(XUIHeaders.ethos_headers_4)
+			.check(jsonPath("$.event_token").saveAs("eventToken")))
+
+		.exec(http("XUI_140_015_SelectAmendHearingHealthcheck")
+			.get(Environment.xuiUrl + "/api/healthCheck?path=%2Fcases%2Fcase-details%2F${caseId}%2Ftrigger%2FaddAmendHearing%2FaddAmendHearing1")
+			.headers(XUIHeaders.ethos_headers_0))
+
+		.exec(http("XUI_140_020_SelectAmendHearingGetProfileData")
+			.get(Environment.xuiUrl + "/data/internal/profile")
+			.headers(XUIHeaders.ethos_headers_6))
+
+		.pause(Environment.constantthinkTime)
+
+		.exec(http("XUI_150_005_AmendHearingPage1")
+			.post(Environment.xuiUrl + "/data/case-types/Leeds/validate?pageId=addAmendHearing1")
+			.headers(XUIHeaders.ethos_headers_5)
+			.body(ElFileBody("XUI_25HearingsAdd.json")))
+
+		.exec(http("XUI_150_005_AmendHearingPage1Healthcheck")
+			.get(Environment.xuiUrl + "/api/healthCheck?path=%2Fcases%2Fcase-details%2F${caseId}%2Ftrigger%2FaddAmendHearing%2Fsubmit")
+			.headers(XUIHeaders.ethos_headers_0))
+
+		.exec(http("XUI_150_005_AmendHearingPage1GetProfileData")
+			.get(Environment.xuiUrl + "/data/internal/profile")
+			.headers(XUIHeaders.ethos_headers_6))
+
+		.pause(Environment.constantthinkTime)
+
+		.exec(http("XUI_160_005_AmendHearingSubmit")
+			.post(Environment.xuiUrl + "/data/cases/${caseId}/events")
+			.headers(XUIHeaders.ethos_headers_9)
+			.body(ElFileBody("XUI_25HearingsSubmit.json")))
+
+		.exec(http("XUI_160_010_AmendHearingSubmitHealthcheck")
+			.get(Environment.xuiUrl + "/api/healthCheck?path=%2Fcases%2Fcase-details%2F${caseId}")
+			.headers(XUIHeaders.ethos_headers_0))
+
+		.exec(http("XUI_160_015_OpenCase")
+			.get(Environment.xuiUrl + "/data/internal/cases/${caseId}")
+			.headers(XUIHeaders.ethos_headers_11))
+
+		.pause(Environment.constantthinkTime)
+
+	val XUISingleAllocate25Hearings = 
+
+		exec(http("XUI_170_005_SelectAllocateHearingsHealthcheck")
+			.get(Environment.xuiUrl + "/api/healthCheck?path=%2Fcases%2Fcase-details%2F${caseId}%2Ftrigger%2FallocateHearing")
+			.headers(XUIHeaders.ethos_headers_0))
+
+		.exec(http("XUI_170_010_SelectAllocateHearings")
+			.get(Environment.xuiUrl + "/data/internal/cases/${caseId}/event-triggers/allocateHearing?ignore-warning=false")
+			.headers(XUIHeaders.ethos_headers_4)
+			.check(jsonPath("$.event_token").saveAs("eventToken")))
+
+		.exec(http("XUI_170_015_SelectAllocateHearingsHealthcheck")
+			.get(Environment.xuiUrl + "/api/healthCheck?path=%2Fcases%2Fcase-details%2F${caseId}%2Ftrigger%2FallocateHearing%2FallocateHearing1")
+			.headers(XUIHeaders.ethos_headers_0))
+
+		.exec(http("XUI_170_020_SelectAllocateHearingsGetProfileData")
+			.get(Environment.xuiUrl + "/data/internal/profile")
+			.headers(XUIHeaders.ethos_headers_6))
+
+		.pause(Environment.constantthinkTime)
+		
+		.exec(http("XUI_180_005_AddHearings")
+			.post(Environment.xuiUrl + "/data/case-types/Leeds/validate?pageId=allocateHearing1")
+			.headers(XUIHeaders.ethos_headers_5)
+			.body(ElFileBody("XUI_25AllocateHearingsAdd.json")))
+
+		.exec(http("XUI_180_010_AddHearingsHealthcheck")
+			.get(Environment.xuiUrl + "/api/healthCheck?path=%2Fcases%2Fcase-details%2F${caseId}%2Ftrigger%2FallocateHearing%2Fsubmit")
+			.headers(XUIHeaders.ethos_headers_0))
+
+		.exec(http("XUI_180_015_AddHearingsGetProfileData")
+			.get(Environment.xuiUrl + "/data/internal/profile")
+			.headers(XUIHeaders.ethos_headers_6))
+
+		.pause(Environment.constantthinkTime)
+
+		.exec(http("XUI_190_005_AddHearingsSubmit")
+			.post(Environment.xuiUrl + "/data/cases/${caseId}/events")
+			.headers(XUIHeaders.ethos_headers_9)
+			.body(ElFileBody("XUI_25AllocateHearingsSubmit.json")))
+
+		.exec(http("XUI_190_010_AddHearingsSubmitHealthcheck")
+			.get(Environment.xuiUrl + "/api/healthCheck?path=%2Fcases%2Fcase-details%2F${caseId}")
+			.headers(XUIHeaders.ethos_headers_0))
+
+		.exec(http("XUI_190_015_OpenCase")
+			.get(Environment.xuiUrl + "/data/internal/cases/${caseId}")
+			.headers(XUIHeaders.ethos_headers_11))
+
+		.pause(Environment.constantthinkTime)
 
     val XUISinglePreAcceptance =
 

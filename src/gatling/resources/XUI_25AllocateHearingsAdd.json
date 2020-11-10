@@ -1,0 +1,3418 @@
+{
+    "data": {
+      "hearingCollection": [
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ailsa Dickinson",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "D Jones",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Andrew Wood",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        }
+      ]
+    },
+    "event": {
+      "id": "allocateHearing",
+      "summary": "",
+      "description": ""
+    },
+    "event_token": "${eventToken}",
+    "ignore_warning": false,
+    "event_data": {
+      "hearingCollection": [
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ailsa Dickinson",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "D Jones",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Andrew Wood",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        },
+        {
+          "id": null,
+          "value": {
+            "Hearing_type": "Hearing",
+            "hearingSitAlone": "Sit Alone",
+            "hearingShowDetails": null,
+            "Hearing_venue": null,
+            "hearingEstLengthNum": null,
+            "hearingEstLengthNumType": null,
+            "Hearing_stage": null,
+            "Hearing_notes": null,
+            "hearingDateCollection": [
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "D Franey",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ayesha Hussain",
+                  "Hearing_judge_name": "CP Rostant",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              },
+              {
+                "id": null,
+                "value": {
+                  "Hearing_status": "Listed",
+                  "hearingVenueDay": "Leeds",
+                  "hearingRoomLeeds": "* Not Allocated",
+                  "Hearing_clerk": "Ben Williams",
+                  "Hearing_judge_name": "EP Morgan",
+                  "showListingDetails": null,
+                  "HearingNotes2": null,
+                  "listedDate": null
+                }
+              }
+            ],
+            "hearingNumber": null
+          }
+        }
+      ]
+    },
+    "case_reference": "${caseId}"
+  }

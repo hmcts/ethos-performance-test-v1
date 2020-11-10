@@ -15,7 +15,7 @@ class EthosPTSimulationLatest extends Simulation{
 
   val httpProtocol = http
     .baseUrl(BashURL)
-    .proxy(Proxy("proxyout.reform.hmcts.net", 8080).httpsPort(8080)) //Comment out for VM runs
+    //.proxy(Proxy("proxyout.reform.hmcts.net", 8080).httpsPort(8080)) //Comment out for VM runs
 
    val EthosSCN = scenario("Ethos - Case Creation")
   //  .repeat(2){
@@ -26,9 +26,18 @@ class EthosPTSimulationLatest extends Simulation{
   val CCDCreateSingleSCN = scenario("CCD - Create Single Cases")
     .repeat(1) {
         exec(TokenGenerator.CDSGetRequest)
-        .repeat(1062) {
+        .repeat(10) {
           exec(CCDCreate.ETGetSingleToken)
-          .exec(CCDCreate.ETCreateCase)
+          .exec(CCDCreate.ETCreateSingleCase)
+        }
+      }
+
+  val CCDCreateSingleForMultiSCN = scenario("CCD - Create Single Cases for a Multiple Case")
+    .repeat(1) {
+        exec(TokenGenerator.CDSGetRequest)
+        .repeat(1000) {
+          exec(CCDCreate.ETGetSingleToken)
+          .exec(CCDCreate.ETCreateSingleCaseForMultiple)
         }
       }
 
@@ -56,19 +65,34 @@ class EthosPTSimulationLatest extends Simulation{
       exec(XUI.XUIHomePage)
       .exec(XUI.XUILogin)
       .repeat(1) {
-        exec(XUI.XUISearchAndOpenCase)
+        exec(XUI.XUISearchAndOpenMultipleCase)
         .exec(XUI.BatchUpdateMultiple)
       }
     }
 
+  val XUISingleCaseJourney = scenario("XUI - Single Case Update Journey")
+  .repeat(1){
+      exec(XUI.XUIHomePage)
+      .exec(XUI.XUILogin)
+      .repeat(1) {
+        exec(XUI.XUISearchAndOpenSingleCase)
+        //.exec(XUI.XUISinglePreAcceptance) //Only required for cases created in the UI
+        .exec(XUI.XUISingleUpdateCaseDetails)
+        .exec(XUI.XUISingleUpdateJurisdictions)
+        .exec(XUI.XUISingleAdd25Respondents)
+        .exec(XUI.XUISingleList25Hearings)
+        .exec(XUI.XUISingleAllocate25Hearings)
+      }
+  }
+
   setUp(
-    //EthosSCN.inject(atOnceUsers(1))
     //ETOnlineCreateSingleSCN.inject(rampUsers(1) during (1 minute))
     //ETOnlineCreateMultipleSCN.inject(rampUsers(1) during (1 minute))
-    XUIMultipleBatchUpdate.inject(rampUsers(1) during (1 minute))
-    //CCDCreateSingleSCN.inject(rampUsers(1) during (1 minute))
+    //XUIMultipleBatchUpdate.inject(rampUsers(1) during (1 minute))
+    //XUISingleCaseJourney.inject(rampUsers(1) during (1 minute))
+    //CCDCreateSingleSCN.inject(rampUsers(5) during (1 minute))
+    CCDCreateSingleForMultiSCN.inject(rampUsers(50) during (10 minute))
     //CCDCreateMultipleSCN.inject(rampUsers(1) during (1 minute))
-    //EthosSCN.inject(rampUsers(50) during (20 minutes))
 
   ).protocols(httpProtocol)
 

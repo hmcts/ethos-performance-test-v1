@@ -19,7 +19,7 @@ object ETOnline_CreateCase {
             ("createSingleUUID", createSingleuUID),
         ))
 
-        .exec(http("TX01_Ethos_create_single_case")
+        .exec(http("ETOnline_CreateSingle")
             .post(Environment.baseURL + "/api/v2/claims/build_claim")
             .body(ElFileBody("ETOnline_SingleCase.json"))
             .header("Content-Type", "application/json")
@@ -31,7 +31,7 @@ object ETOnline_CreateCase {
             ("createMultipleUUID", createMultipleuUID),
         ))
 
-        .exec(http("TX01_Ethos_create_multiple_case")
+        .exec(http("ETOnline_CreateMultiple")
             .post(Environment.baseURL + "/api/v2/claims/build_claim")
             .body(ElFileBody("ETOnline_MultipleCase.json"))
             .header("Content-Type", "application/json")

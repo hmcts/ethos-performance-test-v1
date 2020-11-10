@@ -3,7 +3,7 @@
 {
     "caseType": "Multiple",
     "leadClaimant": "No",
-    "multipleReference" : "${CaseMultipleName}",
+    "multipleReference" : "${multipleName}",
     "state": "Accepted",
     "stateAPI": "Accepted",
     "claimant": "Alethea Citrine",
