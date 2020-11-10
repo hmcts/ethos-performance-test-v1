@@ -13,8 +13,8 @@ object CCDCreate {
   val CCDEnvurl = Environment.ccdEnvurl
   val s2sUrl = Environment.s2sUrl
   val ccdDataStoreUrl = "http://ccd-data-store-api-perftest.service.core-compute-perftest.internal"
-  def casePrefix = "Perf-20200929"
-  def receiptDate = "2020-09-29"
+  def casePrefix = "Perf-20200928"
+  def receiptDate = "2020-09-28"
   def multiCasePrefix = "Perf-20201025/"
 
   val ETGetSingleToken =
@@ -82,7 +82,7 @@ object CCDCreate {
       //   )
       // )
 
-  val feedEthosMultiName = csv("Ethos_MultipleName.csv")
+  val feedEthosMultiName = csv("Ethos_MultipleName.csv").circular
   //val feedEthosCaseRef = csv("EthosCaseRef.csv").queue
 
   val ETCreateSingleCaseForMultiple =
