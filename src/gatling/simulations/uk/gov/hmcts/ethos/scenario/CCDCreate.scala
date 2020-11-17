@@ -13,8 +13,8 @@ object CCDCreate {
   val CCDEnvurl = Environment.ccdEnvurl
   val s2sUrl = Environment.s2sUrl
   val ccdDataStoreUrl = "http://ccd-data-store-api-perftest.service.core-compute-perftest.internal"
-  def casePrefix = "Perf-20200919"
-  def receiptDate = "2020-09-19"
+  def casePrefix = "Perf-20200901"
+  def receiptDate = "2020-09-01"
   def multiCasePrefix = "Perf-20201025/"
 
   val ETGetSingleToken =
@@ -104,7 +104,7 @@ object CCDCreate {
         session =>
           val fw = new BufferedWriter(new FileWriter("CreateSinglesForMultiple_Testing.csv", true))
           try {
-            fw.write(session("CaseRefPrefix").as[String] + "/" + session("caseRef").as[String] + "\r\n")
+            fw.write(session("CaseRefPrefix").as[String] + "/" + session("multipleRef").as[String] + "\r\n")
           }
           finally fw.close()
           session
