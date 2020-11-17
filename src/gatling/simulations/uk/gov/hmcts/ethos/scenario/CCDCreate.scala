@@ -42,7 +42,7 @@ object CCDCreate {
 
     //feed(feedEthosCaseRef)
 
-    .exec(http("CreateCase")
+    exec(http("CreateCase")
       .post(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds/cases")
       .header("ServiceAuthorization", "Bearer ${bearerToken}")
       .header("Authorization", "Bearer ${access_token}")
