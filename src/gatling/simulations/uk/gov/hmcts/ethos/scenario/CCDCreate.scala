@@ -104,7 +104,7 @@ object CCDCreate {
     .doIf(session=>session("statusvalue").as[String].contains("201")) {
       exec {
         session =>
-          val fw = new BufferedWriter(new FileWriter("CreateSinglesForMultiple_Testing_3.csv", true))
+          val fw = new BufferedWriter(new FileWriter("CreateSinglesForMultiple_Testing_2.csv", true))
           try {
             fw.write(session("multipleName").as[String] + "," + session("multipleName").as[String] + "-" + session("CaseRefPrefix").as[String] + "/" + session("caseRef").as[String] + "\r\n")
           }
