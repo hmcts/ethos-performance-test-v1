@@ -36,11 +36,11 @@ object CCDCreate {
       )
      )
 
-  val feedEthosCaseRef = csv("EthosCaseRef.csv")
+  //val feedEthosCaseRef = csv("EthosCaseRef.csv")
 
   val ETCreateSingleCase =
 
-    feed(feedEthosCaseRef)
+    //feed(feedEthosCaseRef)
 
     .exec(http("CreateCase")
       .post(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds/cases")
