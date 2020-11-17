@@ -13,8 +13,8 @@ object CCDCreate {
   val CCDEnvurl = Environment.ccdEnvurl
   val s2sUrl = Environment.s2sUrl
   val ccdDataStoreUrl = "http://ccd-data-store-api-perftest.service.core-compute-perftest.internal"
-  def casePrefix = "Perf-20200901"
-  def receiptDate = "2020-09-01"
+  def casePrefix = "20200801"
+  def receiptDate = "2020-08-01"
   def multiCasePrefix = "Perf-20201025/"
 
   val ETGetSingleToken =
@@ -36,7 +36,7 @@ object CCDCreate {
       )
      )
 
-  val feedEthosCaseRef = csv("EthosCaseRef.csv").queue
+  val feedEthosCaseRef = csv("EthosCaseRef.csv")
 
   val ETCreateSingleCase =
 
@@ -82,13 +82,15 @@ object CCDCreate {
       //   )
       // )
 
-  val feedEthosMultiName = csv("Ethos_MultipleName.csv")
+  //val feedEthosMultiName = csv("Ethos_MultipleName.csv")
   //val feedEthosCaseRef = csv("EthosCaseRef.csv").queue
+
+  val feedEthosCaseRef = csv("EthosCaseRef.csv")
 
   val ETCreateSingleCaseForMultiple =
 
-    //feed(feedEthosCaseRef)
-    feed(feedEthosMultiName)
+    feed(feedEthosCaseRef)
+    //.feed(feedEthosMultiName)
 
     .exec(http("CreateCase")
       .post(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds/cases")
@@ -104,7 +106,7 @@ object CCDCreate {
         session =>
           val fw = new BufferedWriter(new FileWriter("CreateSinglesForMultiple_Testing.csv", true))
           try {
-            fw.write(session("CaseRefPrefix").as[String] + "/" + session("multipleRef").as[String] + "\r\n")
+            fw.write(session("multipleName").as[String] + "," + session("multipleName").as[String] + "-" + session("CaseRefPrefix").as[String] + "/" + session("caseRef").as[String] + "\r\n")
           }
           finally fw.close()
           session
@@ -117,10 +119,10 @@ object CCDCreate {
 
   val ETCreateMultipleCase =
 
-    feed(feedEthosCaseRef, 50000)
-    .feed(feedEthosMultiName)
+    //feed(feedEthosCaseRef, 50000)
+    //.feed(feedEthosMultiName)
 
-    .exec(http("CreateMultipleCase")
+    exec(http("CreateMultipleCase")
       .post(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds_Multiple/cases")
       .header("ServiceAuthorization", "Bearer ${bearerToken}")
       .header("Authorization", "Bearer ${access_token}")

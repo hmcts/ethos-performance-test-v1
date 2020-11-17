@@ -12,6 +12,8 @@ class EthosPTSimulationLatest extends Simulation{
 
   val BashURL = Environment.baseURL
   val config: Config = ConfigFactory.load()
+  val feedEthosMultiName = csv("Ethos_MultipleName.csv")
+  val feedEthosCaseRef = csv("EthosCaseRef.csv").circular
 
   val httpProtocol = http
     .baseUrl(BashURL)
@@ -35,7 +37,9 @@ class EthosPTSimulationLatest extends Simulation{
   val CCDCreateSingleForMultiSCN = scenario("CCD - Create Single Cases for a Multiple Case")
     .repeat(1) {
         exec(TokenGenerator.CDSGetRequest)
+        .feed(feedEthosMultiName).feed(Feeders.DataFeeder)
         .repeat(200) {
+          //feed(feedEthosCaseRef).feed(Feeders.DataFeeder)
           exec(CCDCreate.ETGetSingleToken)
           .exec(CCDCreate.ETCreateSingleCaseForMultiple)
         }
@@ -91,7 +95,7 @@ class EthosPTSimulationLatest extends Simulation{
     //XUIMultipleBatchUpdate.inject(rampUsers(1) during (1 minute))
     //XUISingleCaseJourney.inject(rampUsers(1) during (1 minute))
     //CCDCreateSingleSCN.inject(rampUsers(1) during (1 minute))
-    CCDCreateSingleForMultiSCN.inject(rampUsers(1000) during (30 minute))
+    CCDCreateSingleForMultiSCN.inject(rampUsers(250) during (20 minutes))
     //CCDCreateMultipleSCN.inject(rampUsers(1) during (1 minute))
 
   ).protocols(httpProtocol)
