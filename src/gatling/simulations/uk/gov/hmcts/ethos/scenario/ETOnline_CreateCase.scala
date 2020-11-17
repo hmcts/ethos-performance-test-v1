@@ -12,7 +12,7 @@ object ETOnline_CreateCase {
 
     def createSingleuUID: String = randomUUID.toString
     def createMultipleuUID: String = randomUUID.toString
-    def dateTime = "40000_005"
+    def dateTime = "100_001"
 
     val ETOnline_CreateSingle = 
     
@@ -35,7 +35,7 @@ object ETOnline_CreateCase {
 
         .exec(http("ETOnline_CreateMultiple")
             .post(Environment.baseURL + "/api/v2/claims/build_claim")
-            .body(ElFileBody("ETOnline_40000claimant.json"))
+            .body(ElFileBody("ETOnline_100claimant.json"))
             .header("Content-Type", "application/json")
             .header("Accept", "application/json"))
 
