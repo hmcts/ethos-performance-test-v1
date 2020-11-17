@@ -38,7 +38,7 @@ class EthosPTSimulationLatest extends Simulation{
     .repeat(1) {
         exec(TokenGenerator.CDSGetRequest)
         .feed(feedEthosMultiName).feed(Feeders.DataFeeder)
-        .repeat(200) {
+        .repeat(220) {
           //feed(feedEthosCaseRef).feed(Feeders.DataFeeder)
           exec(CCDCreate.ETGetSingleToken)
           .exec(CCDCreate.ETCreateSingleCaseForMultiple)
@@ -95,7 +95,7 @@ class EthosPTSimulationLatest extends Simulation{
     //XUIMultipleBatchUpdate.inject(rampUsers(1) during (1 minute))
     //XUISingleCaseJourney.inject(rampUsers(1) during (1 minute))
     //CCDCreateSingleSCN.inject(rampUsers(1) during (1 minute))
-    CCDCreateSingleForMultiSCN.inject(rampUsers(4) during (1 minutes))
+    CCDCreateSingleForMultiSCN.inject(rampUsers(250) during (20 minutes))
     //CCDCreateMultipleSCN.inject(rampUsers(1) during (1 minute))
 
   ).protocols(httpProtocol)

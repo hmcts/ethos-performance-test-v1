@@ -13,8 +13,8 @@ object CCDCreate {
   val CCDEnvurl = Environment.ccdEnvurl
   val s2sUrl = Environment.s2sUrl
   val ccdDataStoreUrl = "http://ccd-data-store-api-perftest.service.core-compute-perftest.internal"
-  def casePrefix = "20200802"
-  def receiptDate = "2020-08-02"
+  def casePrefix = "20200803"
+  def receiptDate = "2020-08-03"
   def multiCasePrefix = "Perf-20201025/"
 
   val ETGetSingleToken =
