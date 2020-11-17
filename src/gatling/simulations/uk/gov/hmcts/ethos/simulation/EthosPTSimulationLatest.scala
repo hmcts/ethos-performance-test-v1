@@ -95,7 +95,7 @@ class EthosPTSimulationLatest extends Simulation{
     //XUIMultipleBatchUpdate.inject(rampUsers(1) during (1 minute))
     //XUISingleCaseJourney.inject(rampUsers(1) during (1 minute))
     //CCDCreateSingleSCN.inject(rampUsers(1) during (1 minute))
-    CCDCreateSingleForMultiSCN.inject(rampUsers(250) during (20 minutes))
+    CCDCreateSingleForMultiSCN.inject(rampUsers(3) during (1 minutes))
     //CCDCreateMultipleSCN.inject(rampUsers(1) during (1 minute))
 
   ).protocols(httpProtocol)
