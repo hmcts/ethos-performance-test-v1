@@ -13,8 +13,8 @@ object CCDCreate {
   val CCDEnvurl = Environment.ccdEnvurl
   val s2sUrl = Environment.s2sUrl
   val ccdDataStoreUrl = "http://ccd-data-store-api-perftest.service.core-compute-perftest.internal"
-  def casePrefix = "Perf-20200928"
-  def receiptDate = "2020-09-28"
+  def casePrefix = "Perf-20200919"
+  def receiptDate = "2020-09-19"
   def multiCasePrefix = "Perf-20201025/"
 
   val ETGetSingleToken =
@@ -82,13 +82,13 @@ object CCDCreate {
       //   )
       // )
 
-  val feedEthosMultiName = csv("Ethos_MultipleName.csv").circular
+  val feedEthosMultiName = csv("Ethos_MultipleName.csv")
   //val feedEthosCaseRef = csv("EthosCaseRef.csv").queue
 
   val ETCreateSingleCaseForMultiple =
 
     feed(feedEthosCaseRef)
-    .feed(feedEthosMultiName)
+    //.feed(feedEthosMultiName)
 
     .exec(http("CreateCase")
       .post(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds/cases")
@@ -102,7 +102,7 @@ object CCDCreate {
     .doIf(session=>session("statusvalue").as[String].contains("201")) {
       exec {
         session =>
-          val fw = new BufferedWriter(new FileWriter("CreateSinglesForMultiple.csv", true))
+          val fw = new BufferedWriter(new FileWriter("CreateSinglesForMultiple_Testing.csv", true))
           try {
             fw.write(session("CaseRefPrefix").as[String] + "/" + session("caseRef").as[String] + "\r\n")
           }
