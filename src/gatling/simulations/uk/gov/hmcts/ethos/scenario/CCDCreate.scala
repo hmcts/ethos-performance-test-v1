@@ -87,8 +87,8 @@ object CCDCreate {
 
   val ETCreateSingleCaseForMultiple =
 
-    feed(feedEthosCaseRef)
-    //.feed(feedEthosMultiName)
+    //feed(feedEthosCaseRef)
+    feed(feedEthosMultiName)
 
     .exec(http("CreateCase")
       .post(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds/cases")
