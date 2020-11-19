@@ -44,7 +44,7 @@ object XUI {
 
         .exec(http("XUI_020_005_SignIn")
             .post(Environment.idamURL + "/login?response_type=code&redirect_uri=" + Environment.xuiUrl + "%2Foauth2%2Fcallback&scope=profile%20openid%20roles%20manage-user%20create-user&state=${state}&client_id=xuiwebapp")
-            .formParam("username", "${email}")
+            .formParam("username", "ccdloadtest4501@gmail.com")
             .formParam("password", "Password12")
             .formParam("save", "Sign in")
             .formParam("selfRegistrationEnabled", "false")
@@ -173,6 +173,8 @@ object XUI {
           finally fw.close()
           session
       }
+
+	  .pause(600)
 
     val XUISearchAndOpenSingleCase = 
 
@@ -531,7 +533,7 @@ object XUI {
 			.get(Environment.xuiUrl + "/data/internal/cases/${caseId}")
 			.headers(XUIHeaders.ethos_headers_11))
 
-        .pause(Environment.constantthinkTime)
+        .pause(600)
 
 	val XUILogout =
 
