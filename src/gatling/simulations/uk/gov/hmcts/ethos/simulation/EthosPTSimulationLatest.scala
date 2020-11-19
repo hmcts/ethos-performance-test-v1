@@ -18,7 +18,7 @@ class EthosPTSimulationLatest extends Simulation{
   val httpProtocol = http
     .baseUrl(BashURL)
     .proxy(Proxy("proxyout.reform.hmcts.net", 8080).httpsPort(8080)) //Comment out for VM runs
-    .noProxyFor(xuiUrl)
+    .noProxyFor(Environment.xuiUrl)
 
    val EthosSCN = scenario("Ethos - Case Creation")
   //  .repeat(2){
