@@ -174,7 +174,7 @@ object XUI {
           session
       }
 
-	  .pause(600)
+	  .pause(300)
 
     val XUISearchAndOpenSingleCase = 
 
