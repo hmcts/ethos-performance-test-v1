@@ -482,7 +482,7 @@ object XUI {
 			session
 		}
 
-		.pause(Environment.constantthinkTime)
+		.pause(600)
 
     val XUISinglePreAcceptance =
 
@@ -533,7 +533,7 @@ object XUI {
 			.get(Environment.xuiUrl + "/data/internal/cases/${caseId}")
 			.headers(XUIHeaders.ethos_headers_11))
 
-        .pause(600)
+        //.pause(600)
 
 	val XUILogout =
 
