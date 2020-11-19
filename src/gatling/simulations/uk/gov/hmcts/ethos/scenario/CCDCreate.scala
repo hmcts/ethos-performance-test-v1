@@ -1,7 +1,6 @@
 package uk.gov.hmcts.ethos.scenario
 
 import java.io.{BufferedWriter, FileWriter}
-
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 import uk.gov.hmcts.ethos.scenario.utils._
@@ -13,8 +12,8 @@ object CCDCreate {
   val CCDEnvurl = Environment.ccdEnvurl
   val s2sUrl = Environment.s2sUrl
   val ccdDataStoreUrl = "http://ccd-data-store-api-perftest.service.core-compute-perftest.internal"
-  def casePrefix = "20200806"
-  def receiptDate = "2020-08-06"
+  def casePrefix = "20200807"
+  def receiptDate = "2020-08-07"
   def multiCasePrefix = "Perf-20201025/"
 
   val ETGetSingleToken =
@@ -104,7 +103,7 @@ object CCDCreate {
     .doIf(session=>session("statusvalue").as[String].contains("201")) {
       exec {
         session =>
-          val fw = new BufferedWriter(new FileWriter("CreateSinglesForMultiple_Testing_4.csv", true))
+          val fw = new BufferedWriter(new FileWriter("CreateSinglesForMultiple_Testing_5.csv", true))
           try {
             fw.write(session("multipleName").as[String] + "," + session("multipleName").as[String] + "-" + session("CaseRefPrefix").as[String] + "/" + session("caseRef").as[String] + "\r\n")
           }
@@ -115,28 +114,29 @@ object CCDCreate {
 
     .pause(1)
 
-  //val feedEthosMultiCaseRef = csv("EthosMultiCaseRef.csv")
+  val feedEthosMultipleCaseRef = csv("PT_MultipleCreation_1.csv")
+  val feedEthosMultiCaseNum = csv("EthosMultiCaseRef.csv")
 
   val ETCreateMultipleCase =
 
-    //feed(feedEthosCaseRef, 50000)
-    //.feed(feedEthosMultiName)
+    feed(feedEthosMultipleCaseRef, 200)
+    .feed(feedEthosMultiCaseNum)
 
-    exec(http("CreateMultipleCase")
+    .exec(http("CreateMultipleCase")
       .post(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds_Multiple/cases")
       .header("ServiceAuthorization", "Bearer ${bearerToken}")
       .header("Authorization", "Bearer ${access_token}")
       .header("Content-Type","application/json")
-      .body(ElFileBody("Ethos_MultipleCase50000.json"))
+      .body(ElFileBody("Ethos_MultipleCase200.json"))
       .check(jsonPath("$.id").saveAs("caseId"))
       .check(status.saveAs("statusvalue")))
 
     .doIf(session=>session("statusvalue").as[String].contains("201")) {
       exec {
         session =>
-          val fw = new BufferedWriter(new FileWriter("CreateMultiples.csv", true))
+          val fw = new BufferedWriter(new FileWriter("CreateMultiples_ForPT.csv", true))
           try {
-            fw.write(session("multipleName").as[String] + "," + session("caseId").as[String] + "\r\n")
+            fw.write("PT-Multiple-" + session("caseRefNum").as[String] + "," + session("caseId").as[String] + "\r\n")
           }
           finally fw.close()
           session

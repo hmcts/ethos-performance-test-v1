@@ -1,0 +1,1217 @@
+{
+    "data": {
+       "multipleName": "PT-Multiple-${caseRefNum}",
+        "multipleSource": "ET1 Online",
+        "multipleReference": "${caseRefNum}",
+        "caseIdCollection": [
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef1}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef2}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef3}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef4}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef5}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef6}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef7}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef8}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef9}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef10}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef11}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef12}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef13}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef14}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef15}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef16}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef17}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef18}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef19}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef20}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef21}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef22}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef23}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef24}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef25}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef26}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef27}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef28}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef29}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef30}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef31}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef32}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef33}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef34}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef35}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef36}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef37}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef38}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef39}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef40}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef41}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef42}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef43}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef44}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef45}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef46}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef47}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef48}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef49}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef50}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef51}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef52}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef53}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef54}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef55}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef56}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef57}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef58}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef59}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef60}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef61}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef62}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef63}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef64}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef65}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef66}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef67}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef68}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef69}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef70}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef71}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef72}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef73}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef74}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef75}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef76}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef77}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef78}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef79}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef80}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef81}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef82}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef83}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef84}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef85}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef86}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef87}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef88}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef89}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef90}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef91}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef92}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef93}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef94}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef95}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef96}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef97}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef98}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef99}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef100}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef101}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef102}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef103}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef104}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef105}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef106}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef107}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef108}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef109}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef110}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef111}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef112}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef113}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef114}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef115}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef116}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef117}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef118}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef119}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef120}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef121}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef122}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef123}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef124}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef125}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef126}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef127}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef128}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef129}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef130}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef131}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef132}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef133}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef134}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef135}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef136}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef137}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef138}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef139}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef140}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef141}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef142}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef143}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef144}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef145}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef146}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef147}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef148}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef149}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef150}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef151}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef152}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef153}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef154}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef155}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef156}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef157}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef158}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef159}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef160}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef161}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef162}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef163}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef164}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef165}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef166}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef167}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef168}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef169}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef170}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef171}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef172}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef173}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef174}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef175}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef176}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef177}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef178}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef179}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef180}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef181}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef182}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef183}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef184}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef185}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef186}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef187}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef188}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef189}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef190}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef191}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef192}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef193}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef194}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef195}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef196}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef197}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef198}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef199}"
+                }
+            },
+            {
+                "id": null,
+                "value": {
+                    "ethos_CaseReference": "${caseRef200}"
+                }
+            }
+        ]
+    },
+    "event": {
+        "id": "createMultiple",
+        "summary": "Perftest Multiples Case",
+        "description": ""
+    },
+    "event_token": "${eventToken}",
+    "ignore_warning": false,
+    "draft_id": null
+}
