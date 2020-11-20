@@ -482,7 +482,7 @@ object XUI {
 			session
 		}
 
-		.pause(600)
+		.pause(400)
 
     val XUISinglePreAcceptance =
 
