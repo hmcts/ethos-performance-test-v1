@@ -114,7 +114,7 @@ object CCDCreate {
 
     .pause(1)
 
-  val feedEthosMultipleCaseRef = csv("PT_MultipleCreation_1.csv")
+  val feedEthosMultipleCaseRef = csv("PT_MultipleCreation_2.csv")
   val feedEthosMultiCaseNum = csv("EthosMultiCaseRef.csv")
 
   val ETCreateMultipleCase =
@@ -136,7 +136,7 @@ object CCDCreate {
         session =>
           val fw = new BufferedWriter(new FileWriter("CreateMultiples_ForPT.csv", true))
           try {
-            fw.write("PT-Multiple-" + session("caseRefNum").as[String] + "," + session("caseId").as[String] + "\r\n")
+            fw.write("PT-Multiple-" + session("caseRefNum").as[String] + "," + session("caseId").as[String] + "," + session("caseRef1").as[String] + "\r\n")
           }
           finally fw.close()
           session
