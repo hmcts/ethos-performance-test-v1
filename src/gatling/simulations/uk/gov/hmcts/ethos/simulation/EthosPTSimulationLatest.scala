@@ -65,6 +65,11 @@ class EthosPTSimulationLatest extends Simulation{
       exec(ETOnline_CreateCase.ETOnline_CreateMultiple)
     }
 
+  val ETOnlineCreateMultipleLargeSCN = scenario("ETOnline - Create Multiple Case")
+    .repeat(1) {
+      exec(ETOnline_CreateCase.ETOnline_CreateMultipleLarge)
+    }
+
   val XUIMultipleBatchUpdate = scenario("XUI - Batch Update Multiple Case")
     .repeat(1){
       exec(XUI.XUIHomePage)
@@ -95,6 +100,7 @@ class EthosPTSimulationLatest extends Simulation{
   setUp(
     ETOnlineCreateSingleSCN.inject(rampUsers(30) during (20 minutes)),
     ETOnlineCreateMultipleSCN.inject(rampUsers(20) during (20 minutes)),
+    ETOnlineCreateMultipleLargeSCN.inject(rampUsers(1) during (1 minute)),
     XUIMultipleBatchUpdate.inject(rampUsers(16) during (20 minutes)), //16
     XUISingleCaseJourney.inject(rampUsers(24) during (20 minutes)), //24
     //CCDCreateSingleSCN.inject(rampUsers(1) during (1 minute))

@@ -54,7 +54,7 @@
         "uuid": "af0af0fe-9d94-4cd3-910e-5eb8cd56b892",
         "command": "BuildPrimaryRespondent",
         "data": {
-          "name": "Multi_${dateTime}_${caseRefNum}",
+          "name": "PT_Multi_5000_${dateTime}_${caseRefNum}",
           "address_attributes": {
             "building": "the_shard",
             "street": "downing_street",

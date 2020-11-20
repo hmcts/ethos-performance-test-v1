@@ -12,7 +12,7 @@ object ETOnline_CreateCase {
 
     def createSingleuUID: String = randomUUID.toString
     def createMultipleuUID: String = randomUUID.toString
-    def dateTime = "PT4_5000"
+    def dateTime = "PT6"
     val feedMultiCaseValue = csv("EthosMultiCaseRef.csv")
 
     val ETOnline_CreateSingle = 
@@ -45,4 +45,39 @@ object ETOnline_CreateCase {
             .header("Accept", "application/json"))
 
         .pause(500)
+
+    val ETOnline_CreateMultipleLarge = 
+
+        exec(_.setAll(
+            ("createMultipleUUID", createMultipleuUID),
+            ("dateTime", dateTime)
+        ))
+
+        .pause(300)
+
+        .feed(feedMultiCaseValue)
+
+        .exec(http("ETOnline_CreateMultiple_10000")
+            .post(Environment.baseURL + "/api/v2/claims/build_claim")
+            .body(ElFileBody("ETOnline_10000claimant.json"))
+            .header("Content-Type", "application/json")
+            .header("Accept", "application/json"))
+
+        .pause(300)
+
+        .exec(http("ETOnline_CreateMultiple_20000")
+            .post(Environment.baseURL + "/api/v2/claims/build_claim")
+            .body(ElFileBody("ETOnline_20000claimant.json"))
+            .header("Content-Type", "application/json")
+            .header("Accept", "application/json"))
+
+        .pause(300)
+
+        .exec(http("ETOnline_CreateMultiple_30000")
+            .post(Environment.baseURL + "/api/v2/claims/build_claim")
+            .body(ElFileBody("ETOnline_30000claimant.json"))
+            .header("Content-Type", "application/json")
+            .header("Accept", "application/json"))
+
+        .pause(300)
 }
