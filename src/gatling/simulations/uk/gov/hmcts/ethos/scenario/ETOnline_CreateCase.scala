@@ -12,7 +12,7 @@ object ETOnline_CreateCase {
 
     def createSingleuUID: String = randomUUID.toString
     def createMultipleuUID: String = randomUUID.toString
-    def dateTime = "PT6"
+    def dateTime = "PT7"
     val feedMultiCaseValue = csv("EthosMultiCaseRef.csv")
 
     val ETOnline_CreateSingle = 
