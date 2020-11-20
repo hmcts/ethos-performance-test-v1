@@ -65,7 +65,7 @@ class EthosPTSimulationLatest extends Simulation{
       exec(ETOnline_CreateCase.ETOnline_CreateMultiple)
     }
 
-  val ETOnlineCreateMultipleLargeSCN = scenario("ETOnline - Create Multiple Case")
+  val ETOnlineCreateMultipleLargeSCN = scenario("ETOnline - Create Multiple Case - Large")
     .repeat(1) {
       exec(ETOnline_CreateCase.ETOnline_CreateMultipleLarge)
     }
