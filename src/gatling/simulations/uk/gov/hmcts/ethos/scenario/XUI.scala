@@ -34,7 +34,8 @@ object XUI {
             .get(Environment.xuiUrl + "/auth/login")
             .headers(XUIHeaders.headers_4)
             .check(css("input[name='_csrf']", "value").saveAs("csrfToken"))
-            .check(regex("manage-user%20create-user&state=(.*)&client").saveAs("state")))
+            .check(regex("/oauth2/callback&amp;state=(.*)&amp;nonce=").saveAs("state"))
+			.check(regex("nonce=(.*)&response_type").saveAs("nonce")))
 
         .pause(Environment.constantthinkTime)
 
@@ -43,14 +44,16 @@ object XUI {
 		feed(xuiLogins)
 
         .exec(http("XUI_020_005_SignIn")
-            .post(Environment.idamURL + "/login?response_type=code&redirect_uri=" + Environment.xuiUrl + "%2Foauth2%2Fcallback&scope=profile%20openid%20roles%20manage-user%20create-user&state=${state}&client_id=xuiwebapp")
-            .formParam("username", "ccdloadtest4501@gmail.com")
+            // .post(Environment.idamURL + "/login?response_type=code&redirect_uri=" + Environment.xuiUrl + "%2Foauth2%2Fcallback&scope=profile%20openid%20roles%20manage-user%20create-user&state=${state}&client_id=xuiwebapp")
+			.post(Environment.idamURL + "/login?client_id=xuiwebapp&redirect_uri=" + Environment.xuiUrl + "/oauth2/callback&state=${state}&nonce=${nonce}&response_type=code&scope=profile%20openid%20roles%20manage-user%20create-user&prompt=")
+            .formParam("username", "${email}")
             .formParam("password", "Password12")
             .formParam("save", "Sign in")
             .formParam("selfRegistrationEnabled", "false")
             .formParam("_csrf", "${csrfToken}")
             .headers(XUIHeaders.headers_login_submit)
-            .check(status.in(200, 304, 302))).exitHereIfFailed
+            .check(status.in(200, 304, 302))
+			.check(regex("Manage Cases"))).exitHereIfFailed
 
         .exec(http("XUI_020_010_Homepage")
             .get(Environment.xuiUrl + "/external/config/ui")
@@ -245,11 +248,11 @@ object XUI {
 			.headers(XUIHeaders.ethos_headers_5)
 			.body(StringBody("{\n  \"data\": {\n    \"caseNotes\": \"${caseNotes}\",\n    \"additionalCaseInfo\": {\n      \"additional_live_appeal\": \"Yes\",\n      \"additional_sensitive\": \"No\",\n      \"additional_ind_expert\": \"No\",\n      \"doNotPostpone\": \"No\"\n    }\n  },\n  \"event\": {\n    \"id\": \"amendCaseDetails\",\n    \"summary\": \"\",\n    \"description\": \"\"\n  },\n  \"event_token\": \"${eventToken}\",\n  \"ignore_warning\": false,\n  \"event_data\": {\n    \"receiptDate\": \"${receiptDate}\",\n    \"feeGroupReference\": \"${feeGroupReference}\",\n    \"clerkResponsible\": \"${clerkResponsible}\",\n    \"positionType\": \"${positionType}\",\n    \"fileLocation\": \"${fileLocation}\",\n    \"conciliationTrack\": \"${conciliationTrack}\",\n    \"caseType\": \"Single\",\n    \"multipleFlag\": \"No\",\n    \"caseNotes\": \"${caseNotes} \",\n    \"additionalCaseInfo\": {\n      \"additional_live_appeal\": \"Yes\",\n      \"additional_sensitive\": \"No\",\n      \"additional_ind_expert\": \"No\",\n      \"doNotPostpone\": \"No\"\n    }\n  },\n  \"case_reference\": \"${caseId}\"\n}")))
 
-        .exec(http("XUI_060_010_AmendCaseDetailsPage1Healthcheck")
+        .exec(http("XUI_070_010_AmendCaseDetailsPage1Healthcheck")
 			.get(Environment.xuiUrl + "/api/healthCheck?path=%2Fcases%2Fcase-details%2F${caseId}%2Ftrigger%2FamendCaseDetails%2Fsubmit")
 			.headers(XUIHeaders.ethos_headers_0))
             
-        .exec(http("XUI_060_015_AmendCaseDetailsPage1GetProfileData")
+        .exec(http("XUI_070_015_AmendCaseDetailsPage1GetProfileData")
 			.get(Environment.xuiUrl + "/data/internal/profile")
 			.headers(XUIHeaders.ethos_headers_3))
 

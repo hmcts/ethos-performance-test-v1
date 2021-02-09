@@ -17,7 +17,7 @@ class EthosPTSimulationLatest extends Simulation{
 
   val httpProtocol = http
     .baseUrl(BashURL)
-    // .proxy(Proxy("proxyout.reform.hmcts.net", 8080).httpsPort(8080)) //Comment out for VM runs
+    .proxy(Proxy("proxyout.reform.hmcts.net", 8080).httpsPort(8080)) //Comment out for VM runs
     // .noProxyFor(Environment.xuiUrl)
 
    val EthosSCN = scenario("Ethos - Case Creation")
@@ -98,14 +98,17 @@ class EthosPTSimulationLatest extends Simulation{
   }
 
   setUp(
-    ETOnlineCreateSingleSCN.inject(rampUsers(30) during (20 minutes)),
-    ETOnlineCreateMultipleSCN.inject(rampUsers(20) during (20 minutes)),
+   /* ETOnlineCreateSingleSCN.inject(rampUsers(30) during (20 minutes)), //30 during 20
+    ETOnlineCreateMultipleSCN.inject(rampUsers(20) during (20 minutes)), //20 
     // ETOnlineCreateMultipleLargeSCN.inject(rampUsers(1) during (1 minute)),
     XUIMultipleBatchUpdate.inject(rampUsers(16) during (20 minutes)), //16
     XUISingleCaseJourney.inject(rampUsers(24) during (20 minutes)), //24
-    //CCDCreateSingleSCN.inject(rampUsers(1) during (1 minute))
-    //CCDCreateSingleForMultiSCN.inject(rampUsers(1) during (1 minutes))
+    // CCDCreateSingleSCN.inject(rampUsers(1) during (1 minute))
+    // CCDCreateSingleForMultiSCN.inject(rampUsers(1) during (1 minutes))
     // CCDCreateMultipleSCN.inject(rampUsers(1) during (1 minute))
+*/
+    XUIMultipleBatchUpdate.inject(rampUsers(1) during (20 minutes)), //24
+
 
   ).protocols(httpProtocol)
 

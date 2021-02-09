@@ -12,8 +12,8 @@ object CCDCreate {
   val CCDEnvurl = Environment.ccdEnvurl
   val s2sUrl = Environment.s2sUrl
   val ccdDataStoreUrl = "http://ccd-data-store-api-perftest.service.core-compute-perftest.internal"
-  def casePrefix = "20200807"
-  def receiptDate = "2020-08-07"
+  def casePrefix = "20210201"
+  def receiptDate = "2021-02-01"
   def multiCasePrefix = "Perf-20201025/"
 
   val ETGetSingleToken =
@@ -31,15 +31,15 @@ object CCDCreate {
       _.setAll(
         ("CaseRefPrefix", casePrefix),
         ("CaseReceiptDate", receiptDate),
-        //("CaseMultipleName", multipleName)
+        // ("CaseMultipleName", multipleName)
       )
      )
 
-  //val feedEthosCaseRef = csv("EthosCaseRef.csv")
+  // val feedEthosCaseRef = csv("EthosCaseRef.csv")
 
   val ETCreateSingleCase =
 
-    //feed(feedEthosCaseRef)
+    // feed(feedEthosCaseRef)
 
     exec(http("CreateCase")
       .post(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds/cases")
@@ -81,17 +81,17 @@ object CCDCreate {
       //   )
       // )
 
-  //val feedEthosMultiName = csv("Ethos_MultipleName.csv")
-  //val feedEthosCaseRef = csv("EthosCaseRef.csv").queue
+  val feedEthosMultiName = csv("Ethos_MultipleName.csv")
+  // val feedEthosCaseRef = csv("EthosCaseRef.csv").queue
 
-  val feedEthosCaseRef = csv("EthosCaseRef.csv")
+  // val feedEthosCaseRef = csv("EthosCaseRef.csv")
 
   val ETCreateSingleCaseForMultiple =
 
-    feed(feedEthosCaseRef)
-    //.feed(feedEthosMultiName)
+    // feed(feedEthosCaseRef)
+    // .feed(feedEthosMultiName)
 
-    .exec(http("CreateCase")
+    exec(http("CreateCase")
       .post(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds/cases")
       .header("ServiceAuthorization", "Bearer ${bearerToken}")
       .header("Authorization", "Bearer ${access_token}")
@@ -103,7 +103,7 @@ object CCDCreate {
     .doIf(session=>session("statusvalue").as[String].contains("201")) {
       exec {
         session =>
-          val fw = new BufferedWriter(new FileWriter("CreateSinglesForMultiple_Testing_5.csv", true))
+          val fw = new BufferedWriter(new FileWriter("CreateSinglesForMultiple_Testing_6.csv", true))
           try {
             fw.write(session("multipleName").as[String] + "," + session("multipleName").as[String] + "-" + session("CaseRefPrefix").as[String] + "/" + session("caseRef").as[String] + "\r\n")
           }
