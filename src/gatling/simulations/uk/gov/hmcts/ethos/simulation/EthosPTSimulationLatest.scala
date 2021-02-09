@@ -98,7 +98,7 @@ class EthosPTSimulationLatest extends Simulation{
   }
 
   setUp(
-   /* ETOnlineCreateSingleSCN.inject(rampUsers(30) during (20 minutes)), //30 during 20
+    ETOnlineCreateSingleSCN.inject(rampUsers(30) during (20 minutes)), //30 during 20
     ETOnlineCreateMultipleSCN.inject(rampUsers(20) during (20 minutes)), //20 
     // ETOnlineCreateMultipleLargeSCN.inject(rampUsers(1) during (1 minute)),
     XUIMultipleBatchUpdate.inject(rampUsers(16) during (20 minutes)), //16
@@ -106,8 +106,8 @@ class EthosPTSimulationLatest extends Simulation{
     // CCDCreateSingleSCN.inject(rampUsers(1) during (1 minute))
     // CCDCreateSingleForMultiSCN.inject(rampUsers(1) during (1 minutes))
     // CCDCreateMultipleSCN.inject(rampUsers(1) during (1 minute))
-*/
-    XUIMultipleBatchUpdate.inject(rampUsers(1) during (20 minutes)), //24
+
+    // XUIMultipleBatchUpdate.inject(rampUsers(1) during (20 minutes)), //24
 
 
   ).protocols(httpProtocol)
