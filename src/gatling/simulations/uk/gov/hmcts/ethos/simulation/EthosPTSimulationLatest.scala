@@ -29,7 +29,7 @@ class EthosPTSimulationLatest extends Simulation{
   val CCDCreateSingleSCN = scenario("CCD - Create Single Cases")
     .repeat(1) {
         exec(TokenGenerator.CDSGetRequest)
-        .repeat(1) {
+        .repeat(20) {
           exec(CCDCreate.ETGetSingleToken)
           .exec(CCDCreate.ETCreateSingleCase)
         }
@@ -100,14 +100,14 @@ class EthosPTSimulationLatest extends Simulation{
   setUp(
     ETOnlineCreateSingleSCN.inject(rampUsers(30) during (20 minutes)), //30 during 20
     ETOnlineCreateMultipleSCN.inject(rampUsers(20) during (20 minutes)), //20 
-    // ETOnlineCreateMultipleLargeSCN.inject(rampUsers(1) during (1 minute)),
     XUIMultipleBatchUpdate.inject(rampUsers(16) during (20 minutes)), //16
-    XUISingleCaseJourney.inject(rampUsers(24) during (20 minutes)), //24
+    XUISingleCaseJourney.inject(rampUsers(24) during (20 minutes)), //24 
     // CCDCreateSingleSCN.inject(rampUsers(1) during (1 minute))
     // CCDCreateSingleForMultiSCN.inject(rampUsers(1) during (1 minutes))
     // CCDCreateMultipleSCN.inject(rampUsers(1) during (1 minute))
+    // ETOnlineCreateMultipleLargeSCN.inject(rampUsers(1) during (1 minute)),
 
-    // XUIMultipleBatchUpdate.inject(rampUsers(1) during (20 minutes)), //24
+    // XUISingleCaseJourney.inject(rampUsers(1) during (1 minutes)) 
 
 
   ).protocols(httpProtocol)

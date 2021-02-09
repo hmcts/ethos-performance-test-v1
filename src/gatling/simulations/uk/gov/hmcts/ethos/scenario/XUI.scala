@@ -79,7 +79,7 @@ object XUI {
         feed(feedMultipleName)
 
         .exec(http("XUI_030_SearchForMultipleCase")
-			.post(Environment.xuiUrl + "/data/internal/searchCases?ctid=Leeds_Multiple&use_case=WORKBASKET&view=WORKBASKET&page=1&case.multipleName=${multipleName}")
+			.post(Environment.xuiUrl + "/data/internal/searchCases?ctid=Leeds_Multiple&use_case=WORKBASKET&view=WORKBASKET&state=Open&page=1&case.multipleName=${multipleName}")
 			.headers(XUIHeaders.ethos_headers_0)
             .body(StringBody("{\n  \"size\": 25\n}"))
             .check(regex("""case_id":"(.*)","supplementary_data"""").saveAs("caseId")))
@@ -184,7 +184,7 @@ object XUI {
         feed(feedSingleName)
 
         .exec(http("XUI_030_SearchForSingleCase")
-			.post(Environment.xuiUrl + "/data/internal/searchCases?ctid=Leeds&use_case=WORKBASKET&view=WORKBASKET&page=1&case.ethosCaseReference=${singleName}")
+			.post(Environment.xuiUrl + "/data/internal/searchCases?ctid=Leeds&use_case=WORKBASKET&view=WORKBASKET&state=Accepted&page=1&case.ethosCaseReference=${singleName}")
 			.headers(XUIHeaders.ethos_headers_0)
 			.body(StringBody("{\n  \"size\": 25\n}"))
             .check(regex("""case_id":"(.*)","supplementary_data"""").saveAs("caseId")))

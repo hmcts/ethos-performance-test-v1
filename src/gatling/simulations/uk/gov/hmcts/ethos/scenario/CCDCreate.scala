@@ -12,8 +12,8 @@ object CCDCreate {
   val CCDEnvurl = Environment.ccdEnvurl
   val s2sUrl = Environment.s2sUrl
   val ccdDataStoreUrl = "http://ccd-data-store-api-perftest.service.core-compute-perftest.internal"
-  def casePrefix = "20210201"
-  def receiptDate = "2021-02-01"
+  def casePrefix = "20210209"
+  def receiptDate = "2021-02-09"
   def multiCasePrefix = "Perf-20201025/"
 
   val ETGetSingleToken =
@@ -35,13 +35,13 @@ object CCDCreate {
       )
      )
 
-  // val feedEthosCaseRef = csv("EthosCaseRef.csv")
+  val feedEthosCaseRef = csv("EthosCaseRef.csv")
 
   val ETCreateSingleCase =
 
-    // feed(feedEthosCaseRef)
+    feed(feedEthosCaseRef)
 
-    exec(http("CreateCase")
+    .exec(http("CreateCase")
       .post(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds/cases")
       .header("ServiceAuthorization", "Bearer ${bearerToken}")
       .header("Authorization", "Bearer ${access_token}")
