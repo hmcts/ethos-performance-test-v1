@@ -12,9 +12,13 @@ object CCDCreate {
   val CCDEnvurl = Environment.ccdEnvurl
   val s2sUrl = Environment.s2sUrl
   val ccdDataStoreUrl = "http://ccd-data-store-api-perftest.service.core-compute-perftest.internal"
-  def casePrefix = "20210209"
-  def receiptDate = "2021-02-09"
-  def multiCasePrefix = "Perf-20201025/"
+  def casePrefix = "20210210"
+  def receiptDate = "2021-02-10"
+  // def multiCasePrefix = "Perf-20201025/"
+  val feedEthosMultipleCaseRef = csv("PT_MultipleCreation_1.csv")
+  val feedEthosMultiCaseNum = csv("EthosMultiCaseRef.csv")
+  val feedEthosCaseReference = csv("EthosCaseRef.csv")
+  // val feedEthosMultiName = csv("Ethos_MultipleName.csv")
 
   val ETGetSingleToken =
 
@@ -35,13 +39,13 @@ object CCDCreate {
       )
      )
 
-  val feedEthosCaseRef = csv("EthosCaseRef.csv")
+  // val feedEthosCaseRef = csv("EthosCaseRef.csv")
 
   val ETCreateSingleCase =
 
-    feed(feedEthosCaseRef)
+    // feed(feedEthosCaseRef)
 
-    .exec(http("CreateCase")
+    exec(http("CreateCase")
       .post(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds/cases")
       .header("ServiceAuthorization", "Bearer ${bearerToken}")
       .header("Authorization", "Bearer ${access_token}")
@@ -81,17 +85,14 @@ object CCDCreate {
       //   )
       // )
 
-  val feedEthosMultiName = csv("Ethos_MultipleName.csv")
   // val feedEthosCaseRef = csv("EthosCaseRef.csv").queue
 
-  // val feedEthosCaseRef = csv("EthosCaseRef.csv")
-
   val ETCreateSingleCaseForMultiple =
+    
+    // feed(feedEthosMultiName)
+    feed(feedEthosCaseReference)
 
-    // feed(feedEthosCaseRef)
-    // .feed(feedEthosMultiName)
-
-    exec(http("CreateCase")
+    .exec(http("CreateCase")
       .post(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds/cases")
       .header("ServiceAuthorization", "Bearer ${bearerToken}")
       .header("Authorization", "Bearer ${access_token}")
@@ -103,9 +104,9 @@ object CCDCreate {
     .doIf(session=>session("statusvalue").as[String].contains("201")) {
       exec {
         session =>
-          val fw = new BufferedWriter(new FileWriter("CreateSinglesForMultiple_Testing_6.csv", true))
+          val fw = new BufferedWriter(new FileWriter("CreateSinglesForMultiple_TestingFeb_2.csv", true))
           try {
-            fw.write(session("multipleName").as[String] + "," + session("multipleName").as[String] + "-" + session("CaseRefPrefix").as[String] + "/" + session("caseRef").as[String] + "\r\n")
+            fw.write(session("multipleName").as[String] + "," + session("multipleName").as[String] + "-" + session("CaseRefPrefix").as[String] + "/" + session("caseReference").as[String] + "\r\n")
           }
           finally fw.close()
           session
@@ -114,13 +115,10 @@ object CCDCreate {
 
     .pause(1)
 
-  val feedEthosMultipleCaseRef = csv("PT_MultipleCreation_2.csv")
-  val feedEthosMultiCaseNum = csv("EthosMultiCaseRef.csv")
-
   val ETCreateMultipleCase =
 
     feed(feedEthosMultipleCaseRef, 200)
-    .feed(feedEthosMultiCaseNum)
+    .feed(feedEthosMultiCaseNum, 200)
 
     .exec(http("CreateMultipleCase")
       .post(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds_Multiple/cases")
@@ -134,9 +132,9 @@ object CCDCreate {
     .doIf(session=>session("statusvalue").as[String].contains("201")) {
       exec {
         session =>
-          val fw = new BufferedWriter(new FileWriter("CreateMultiples_ForPT.csv", true))
+          val fw = new BufferedWriter(new FileWriter("CreateMultiplesFeb_ForPT.csv", true))
           try {
-            fw.write("PT-Multiple-" + session("caseRefNum").as[String] + "," + session("caseId").as[String] + "," + session("caseRef1").as[String] + "\r\n")
+            fw.write(session("multipleName1").as[String] + "," + session("caseId").as[String] + "," + session("multipleRef1").as[String] + "\r\n")
           }
           finally fw.close()
           session

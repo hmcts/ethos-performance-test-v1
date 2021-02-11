@@ -816,7 +816,7 @@
         "additional_ind_expert": "No",
         "additional_live_appeal": "Yes"
     },
-    "ethosCaseReference": "${multipleName}-${CaseRefPrefix}/${caseRef}",
+    "ethosCaseReference": "${multipleName}-${CaseRefPrefix}/${caseReference}",
     "flagsImageFileName": "EMP-TRIB-0000000.jpg",
     "jurCodesCollection": [
         {
