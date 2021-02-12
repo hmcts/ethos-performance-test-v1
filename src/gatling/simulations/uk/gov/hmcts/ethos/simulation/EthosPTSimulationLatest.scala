@@ -100,7 +100,7 @@ class EthosPTSimulationLatest extends Simulation{
   setUp(
     ETOnlineCreateSingleSCN.inject(rampUsers(30) during (20 minutes)), //30 during 20
     ETOnlineCreateMultipleSCN.inject(rampUsers(20) during (20 minutes)), //20 
-    XUIMultipleBatchUpdate.inject(rampUsers(16) during (20 minutes)), //16
+    // XUIMultipleBatchUpdate.inject(rampUsers(16) during (20 minutes)), //16
     XUISingleCaseJourney.inject(rampUsers(24) during (20 minutes)), //24 
 
     // XUIMultipleBatchUpdate.inject(rampUsers(1) during (1 minutes))
