@@ -1,0 +1,40 @@
+{
+  "data": {
+     "receiptDate": "2021-06-02",
+     "preAcceptCase": {
+        "dateAccepted": "2021-06-02",
+        "caseAccepted": "Yes",
+        "rejectReason": []
+     },
+     "feeGroupReference": "123456678899",
+     "clerkResponsible": null,
+     "positionType": "Manually Created",
+     "fileLocation": "DJ",
+     "conciliationTrack": "Standard Track",
+     "multipleFlag": "No",
+     "caseType": "Single"
+  },
+  "event": {
+     "id": "amendCaseDetails",
+     "summary": "",
+     "description": ""
+  },
+  "event_data": {
+     "receiptDate": "2021-06-02",
+     "preAcceptCase": {
+        "dateAccepted": "2021-06-02",
+        "caseAccepted": "Yes",
+        "rejectReason": []
+     },
+     "feeGroupReference": "123456678899",
+     "clerkResponsible": null,
+     "positionType": "Manually Created",
+     "fileLocation": "DJ",
+     "conciliationTrack": "Standard Track",
+     "multipleFlag": "No",
+     "caseType": "Single"
+  },
+  "event_token": "${eventToken}",
+  "ignore_warning": false,
+  "case_reference": "${caseId}"
+}

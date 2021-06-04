@@ -11,19 +11,20 @@ object CCDCreate {
   val IdamAPI = Environment.idamAPI
   val CCDEnvurl = Environment.ccdEnvurl
   val s2sUrl = Environment.s2sUrl
-  val ccdDataStoreUrl = "http://ccd-data-store-api-perftest.service.core-compute-perftest.internal"
-  def casePrefix = "20210210"
-  def receiptDate = "2021-02-10"
+  val ccdDataStoreUrl = "http://ccd-data-store-api-aat.service.core-compute-aat.internal"
+  def casePrefix = "20210602"
+  def receiptDate = "2021-06-02"
   // def multiCasePrefix = "Perf-20201025/"
   val feedEthosMultipleCaseRef = csv("PT_MultipleCreation_1.csv")
   val feedEthosMultiCaseNum = csv("EthosMultiCaseRef.csv")
   val feedEthosCaseReference = csv("EthosCaseRef.csv")
+  val feedEthosCaseRef = csv("EthosCaseRef.csv")
   // val feedEthosMultiName = csv("Ethos_MultipleName.csv")
 
   val ETGetSingleToken =
 
     exec(http("GetEventToken")
-      .get(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds/event-triggers/initiateCase/token")
+      .get(Environment.ccdDataStoreUrl + "/caseworkers/${idamId}/jurisdictions/EMPLOYMENT/case-types/Leeds/event-triggers/initiateCase/token")
       .header("ServiceAuthorization", "Bearer ${bearerToken}")
       .header("Authorization", "Bearer ${access_token}")
       .header("Content-Type","application/json")
@@ -43,35 +44,62 @@ object CCDCreate {
 
   val ETCreateSingleCase =
 
-    // feed(feedEthosCaseRef)
+    //feed(feedEthosCaseRef)
 
     exec(http("CreateCase")
-      .post(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds/cases")
+      .post(Environment.ccdDataStoreUrl + "/caseworkers/${idamId}/jurisdictions/EMPLOYMENT/case-types/Leeds/cases")
       .header("ServiceAuthorization", "Bearer ${bearerToken}")
       .header("Authorization", "Bearer ${access_token}")
       .header("Content-Type","application/json")
-      .body(ElFileBody("Ethos_SingleCase.json"))
+      .body(ElFileBody("Ethos_SingleCaseNewApril.json"))
       .check(jsonPath("$.id").saveAs("caseId"))
-      .check(status.saveAs("statusvalue")))
+      .check(regex("""ethosCaseReference":"([0-9\/]+?)","claimantIndType""").saveAs("singleName"))
+      //.check(status.saveAs("statusvalue"))
+      )
 
-    .doIf(session=>session("statusvalue").as[String].contains("201")) {
-      exec {
-        session =>
-          val fw = new BufferedWriter(new FileWriter("CreateSingles.csv", true))
-          try {
-            fw.write(session("CaseRefPrefix").as[String] + "/" + session("caseRef").as[String] + "\r\n")
-          }
-          finally fw.close()
-          session
-      }
-    }
+    // .exec {
+    //   session =>
+    //     println(session("singleName").as[String])
+    //     session}
+
+    // .doIf(session=>session("statusvalue").as[String].contains("201")) {
+    //   exec {
+    //     session =>
+    //       val fw = new BufferedWriter(new FileWriter("CreateSingles.csv", true))
+    //       try {
+    //         fw.write(session("CaseRefPrefix").as[String] + "/" + session("caseRef").as[String] + "\r\n")
+    //       }
+    //       finally fw.close()
+    //       session
+    //   }
+    // }
+
+    .pause(1)
+
+  val UpdateCasePreAcceptance = 
+
+    exec(http("GetEventToken")
+      .get(Environment.ccdDataStoreUrl + "/caseworkers/${idamId}/jurisdictions/EMPLOYMENT/case-types/Leeds/cases/${caseId}/event-triggers/preAcceptanceCase/token")
+      .header("ServiceAuthorization", "Bearer ${bearerToken}")
+      .header("Authorization", "Bearer ${access_token}")
+      .header("Content-Type","application/json")
+      .check(jsonPath("$.token").saveAs("eventToken")))
+
+      .pause(1)
+
+    .exec(http("PreAcceptance")
+      .post(Environment.ccdDataStoreUrl + "/caseworkers/${idamId}/jurisdictions/EMPLOYMENT/case-types/Leeds/cases/${caseId}/events")
+      .header("ServiceAuthorization", "Bearer ${bearerToken}")
+      .header("Authorization", "Bearer ${access_token}")
+      .header("Content-Type","application/json")
+      .body(ElFileBody("Ethos_SingleCasePreAcceptance.json")))
 
     .pause(1)
 
   val ETGetMultipleToken =
 
     exec(http("GetEventToken")
-      .get(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds_Multiple/event-triggers/createMultiple/token")
+      .get(ccdDataStoreUrl + "/caseworkers/${idamId}/jurisdictions/EMPLOYMENT/case-types/Leeds_Multiple/event-triggers/createMultiple/token")
       .header("ServiceAuthorization", "Bearer ${bearerToken}")
       .header("Authorization", "Bearer ${access_token}")
       .header("Content-Type","application/json")
@@ -93,7 +121,7 @@ object CCDCreate {
     feed(feedEthosCaseReference)
 
     .exec(http("CreateCase")
-      .post(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds/cases")
+      .post(ccdDataStoreUrl + "/caseworkers/${idamId}/jurisdictions/EMPLOYMENT/case-types/Leeds/cases")
       .header("ServiceAuthorization", "Bearer ${bearerToken}")
       .header("Authorization", "Bearer ${access_token}")
       .header("Content-Type","application/json")
@@ -121,7 +149,7 @@ object CCDCreate {
     .feed(feedEthosMultiCaseNum, 200)
 
     .exec(http("CreateMultipleCase")
-      .post(ccdDataStoreUrl + "/caseworkers/554156/jurisdictions/EMPLOYMENT/case-types/Leeds_Multiple/cases")
+      .post(ccdDataStoreUrl + "/caseworkers/${idamId}/jurisdictions/EMPLOYMENT/case-types/Leeds_Multiple/cases")
       .header("ServiceAuthorization", "Bearer ${bearerToken}")
       .header("Authorization", "Bearer ${access_token}")
       .header("Content-Type","application/json")

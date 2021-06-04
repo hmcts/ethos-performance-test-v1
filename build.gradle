@@ -1,11 +1,12 @@
 plugins {
-    id 'org.owasp.dependencycheck' version '5.1.0'
+    id 'org.owasp.dependencycheck' version '6.1.6'
     id 'scala'
     id 'com.github.lkishalmi.gatling' version '3.0.2'
-    id 'java-gradle-plugin'
-    id 'groovy'
-    id 'com.gradle.plugin-publish' version '0.9.8'
-    id 'maven-publish'
+    // id 'java-gradle-plugin'
+    // id 'groovy'
+    id 'com.gradle.plugin-publish' version '0.15.0'
+    // id 'maven-publish'
+    id 'uk.gov.hmcts.java' version '0.12.5'
 }
 
 //apply plugin: 'java'
@@ -13,23 +14,26 @@ apply plugin: 'scala'
 group 'uk.gov.hmcts.reform'
 version = '1.0'
 
+sourceCompatibility = "11"
+targetCompatibility = "11"
+
 // tasks.withType(JavaExec) {
 //     jvmArgs = ['-Xms1024m', '-Xmx2048m', '-XX:+UseConcMarkSweepGC']
 // }
 
 jar {
     manifest {
-        attributes 'Implementation-Title': 'CCD UI Performance Tests',
+        attributes 'Implementation-Title': 'Ethos Performance Tests',
                 'Implementation-Version': version
     }
 }
 
-/*dependencyCheck {
+dependencyCheck {
     // Specifies if the build should be failed if a CVSS score above a specified level is identified.
     // range of 0-10 fails the build, anything greater and it doesn't fail the build
     failBuildOnCVSS = System.getProperty('dependencyCheck.failBuild') == 'true' ? 0 : 11
-    suppressionFile = 'dependency-check-suppressions.xml'
-}*/
+    suppressionFile = 'config/owasp/suppressions.xml'
+}
 
 repositories {
     jcenter()
@@ -42,10 +46,9 @@ ScalaCompileOptions.metaClass.useCompileDaemon = false
 
 dependencies {
     compile 'org.scala-lang:scala-library:2.12.8'
-
+    gatlingCompile group: 'io.rest-assured', name: 'rest-assured', version: '3.0.0'
     gatlingCompile 'com.warrenstrange:googleauth:1.1.5'
     compile group: 'io.gatling', name: 'gatling-app', version: '3.2.0'
-
     compile group: 'io.gatling', name: 'gatling-recorder', version: '3.2.0'
     compile group: 'io.gatling.highcharts', name: 'gatling-charts-highcharts', version: '3.2.0'
 }
@@ -53,7 +56,9 @@ dependencies {
 gatling {
     toolVersion '3.2.0'
     scalaVersion '2.12.8'
-    simulations = [ 'uk.gov.hmcts.ethos.simulation.EthosPTSimulationLatest'
+    simulations = [ 
+                    //'uk.gov.hmcts.ethos.simulation.EthosPTSimulationLatest'
+                    'uk.gov.hmcts.ethos.simulation.EthosPTPipeline'
     ]
 }
 

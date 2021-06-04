@@ -14,15 +14,19 @@ object TokenGenerator {
   val IdamAPI = Environment.idamAPI
   val CCDEnvurl = Environment.ccdEnvurl
   val s2sUrl = Environment.s2sUrl
-  val ccdRedirectUri = "https://ccd-data-store-api-perftest.service.core-compute-perftest.internal/oauth2redirect"
-  val ccdDataStoreUrl = "http://ccd-data-store-api-perftest.service.core-compute-perftest.internal"
+  val feedPipelineUserData = csv("PipelineUserData.csv")
+  val ccdRedirectUri = "https://ccd-data-store-api-aat.service.core-compute-aat.internal/oauth2redirect"
+  val ccdDataStoreUrl = "http://ccd-data-store-api-aat.service.core-compute-aat.internal"
   val ccdClientId = "ccd_gateway"
   val ccdGatewayClientSecret = config.getString("ccdGatewayCS")
-  val ccdScope = "openid profile authorities acr roles openid profile roles"
+  // val ccdScope = "openid profile authorities acr roles openid profile roles" //perftest
+  val ccdScope = "openid profile authorities acr roles" //aat
 
   val CDSGetRequest =
 
-    exec(http("GetS2SToken")
+    feed(feedPipelineUserData)
+
+    .exec(http("GetS2SToken")
       .post(s2sUrl + "/testing-support/lease")
       .header("Content-Type", "application/json")
       .body(StringBody("{\"microservice\":\"ccd_data\"}"))
@@ -32,8 +36,8 @@ object TokenGenerator {
     .exec(http("OIDC01_Authenticate")
       .post(IdamAPI + "/authenticate")
       .header("Content-Type", "application/x-www-form-urlencoded")
-      .formParam("username", "ccdloadtest4501@gmail.com")
-      .formParam("password", "Password12")
+      .formParam("username", "${email}")
+      .formParam("password", "${password}")
       .formParam("redirectUri", ccdRedirectUri)
       .formParam("originIp", "0:0:0:0:0:0:0:1")
       .check(status is 200)
